@@ -3,11 +3,11 @@ name: Development CI/CD
 on: 
   push: 
     branches: 
-    — main
-    
+      — main
+
   pull_request: 
     branches: 
-    — main 
+      — main 
 
   workflow_dispatch:
 
