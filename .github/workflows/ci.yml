@@ -40,10 +40,10 @@ jobs:
       - name: Run build
         run: make build
 
-      - name: Run vet & lint
-        run: |
-          go vet .
-          golint .
+      # - name: Run vet & lint
+      #   run: |
+      #     go vet .
+      #     golint .
 
       - name: Run test
         run: |
